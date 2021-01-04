@@ -1,17 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
+/* Red Orange: #ff5349  */
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ccddef;
   color: #1e2f4d;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin: 2%;
+  padding: 2%;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 30px;
 }
 h1 {
-  font-size: 54px;
+  font-size: 45px;
 }
 .name-highlight {
-  color: #9d1fa1;
+  color: #ff5349;
 }
